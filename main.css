@@ -1,0 +1,469 @@
+*{
+    scroll-behavior: smooth;
+        padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ui-monospace;
+    
+}
+
+
+
+
+span{
+    color: #18d26e;
+}
+/* start home */
+.home{
+    background-image: url(./img-\ \(11\).jpeg);
+    background-size: contain;
+    height:100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.home::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.537);
+    z-index:1 ;
+    position: absolute;
+}
+.contaner{
+    width: 80%;
+    height: 80%;
+    
+   }
+
+.box{
+width: 70%;
+height: 70%;
+position: absolute;
+z-index: 2;
+display: flex;
+justify-content: start;
+align-items: start;
+flex-direction: column;
+
+}
+.home .contaner .box::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.559);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home .contaner .box h1{
+    color:white;
+z-index: 3;
+padding: 10px ;
+
+}
+
+.home .contaner .box p{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    z-index: 3;
+    padding: 10px ;
+
+}
+
+.home .row{
+z-index: 3;
+}
+.home .row .col li{
+list-style:none ;
+padding: 10px 30px;
+}
+
+.home .row .col li a{
+    color: white;
+    z-index: 4;
+    text-decoration: none;
+}
+.home .row .col li a:hover{
+    color: #18d26e;
+}
+.home .rows{
+    padding: 5px;
+    z-index: 5;
+}
+.home .rows i{
+    z-index: 5;
+    background-color:rgba(255, 255, 255, 0.247);
+
+color: white;
+padding:8px;
+border-radius: 50%;
+cursor: pointer;
+
+
+}
+.home .rows i:hover{
+    color: #18d26e ;
+}
+/* end home */
+
+
+
+/* ""start portfolio"" */
+header .row{
+    background-color: black;
+    color: white;
+    position: relative;
+   top: 0;
+   left: 0;
+   width:100%;
+    z-index: 7;
+   
+
+}
+header .row li{
+        list-style:none ;
+
+}
+header .row .col li a{
+    color: white;
+    z-index: 4;
+    text-decoration: none;
+}
+
+header .row .col li a{
+    color: white;
+    z-index: 4;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header .row .col li a:hover{
+    color: #18d26e;
+}
+
+.portfolio{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./image/img-\ \(11\).jpeg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.portfolio::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.537);
+    z-index:1 ;
+    position: absolute;
+}
+.portfolio .row{
+   margin: 0;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+}
+.portfolio .row .col {
+padding: 1px;
+position: relative;
+}
+
+.portfolio .box{
+    position: relative;
+    width: 85%;
+    height: 75%;
+    background-color: rgba(0, 0, 0, 0.763);
+    
+    
+}
+.portfolio h1{
+    z-index: 7;
+    color: white;
+    position: relative;
+
+}
+
+.portfolio h3{
+    z-index: 7;
+    color: white;
+    position: relative;
+
+}
+
+.portfolio h3::after{
+    content: "";
+    width: 60px;
+    height: 2px;
+    margin: 20px 10px;
+    background-color: #18d26e;
+position: absolute;
+z-index: 8;
+}
+.portfolio .row img{
+    width:100%;
+    height: 100%;
+}
+
+
+.portfolio .row ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.portfolio li{
+    list-style: none ;
+margin: 10px ;
+z-index: 9;
+color: white;
+display: flex;
+justify-content: center;
+background-color: rgb(56, 55, 55);
+}
+.active{
+    position: absolute !important;
+   
+width: 700px !important;
+height: 300px !important;
+z-index: 10;
+left: 50%;
+transform: translateX(-50%);
+transition: 1s;
+
+}
+/* end portfolio */
+
+/* startr skills */
+.skills{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./image/img-\ \(11\).jpeg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.skills::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.537);
+        z-index:1 ;
+        position: absolute;
+    }
+
+    .skills .box{
+        position: relative;
+        width: 80%;
+        height: 65%;
+background-color: rgba(0, 0, 0, 0.571);
+margin-top:10px;
+    }
+    .skills .box h1{
+        z-index:22;
+        color:white;
+    }
+    .skills  h6{
+        z-index: 11;
+        color: white;
+        margin: 15px 0;
+    }
+
+    
+    
+    .skills .box .deg{
+        z-index: 13;
+    }
+    .skills .progress{
+        margin: 70px;
+        width: 60%;
+        height: 20px;
+        background-color: aliceblue;
+        position: absolute;
+               margin: -11px 0 !important;
+        
+}
+    
+    .skills .box .progress .span{
+    width: 0;
+    transition: width 2s;
+    height: 100%;
+    background-color: #18d26e;
+}
+
+.skills .progress span{
+position: absolute;
+transition:  2s;
+left: 0;
+color: black;
+}
+
+/* end skills */
+
+
+/* start about */
+.about{
+width: 100%;
+height: 100vh;
+background-image: url(./image/img-\ \(11\).jpeg);
+/* position: relative; */
+display: flex;
+justify-content: center;
+text-align: center;
+/* align-items: center; */
+}
+.about::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.537);
+    z-index:1 ;
+    position: absolute;
+}
+
+.about .box{
+    position: relative;
+    width: 80%;
+    height: 80%;
+background-color: rgba(0, 0, 0, 0.662);
+}
+.about .box h4{
+    position: absolute;
+    z-index:15 ;
+    color: rgba(255, 255, 255, 0.589);
+    margin:20px 5px;
+}
+
+.about .box h1{
+    position: absolute;
+    z-index:15 ;
+    color: white;
+    margin: 50px 5px;
+}
+.about .box {
+    position: relative;
+}
+.about img{
+    width: 400px;
+height: 360px;
+position: absolute;
+z-index: 16;
+left: 0;
+bottom: 0;
+
+}
+.about h3{
+    color: white;
+    z-index: 18;
+    position: absolute;
+    right: 0;
+    top: 120px;
+padding: 20px 0;
+
+}
+.about .ll{
+    position: absolute;
+    right: 50px;
+    top: 200px;
+}
+.about p{
+    color: white;
+    z-index: 18;
+    color: rgba(255, 255, 255, 0.589);
+
+}
+/* end about */
+
+
+/* start contact  */
+.contact{
+        width: 100%;
+        height: 100vh;
+        background-image: url(./image/img-\ \(11\).jpeg);
+        /* position: relative; */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        /* align-items: center; */
+        }
+        .contact::after{
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.537);
+            z-index:1 ;
+            position: absolute;
+        }
+        
+        .contact .box{
+            position: relative;
+            width: 80%;
+            height: 80%;
+        background-color: rgba(0, 0, 0, 0.662);
+        }
+.contact h4{
+    color: white;
+    z-index: 18;
+    /* position: absolute;   */
+    margin:0 5px;
+
+}
+.contact h1{
+    color:  rgba(255, 255, 255, 0.5);
+    z-index: 18;
+    /* position: absolute; */
+    margin:30px 5px;
+
+}
+
+.contact .bn{
+    position: absolute;
+
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%); */
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+margin: 100px;
+    height: 47%;
+    
+}
+
+.contact .bn .box{
+    flex-basis: 40%;
+    margin: 5px ;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+.contact .bn h3{
+color: white;
+
+}
+.contact .rows i{
+    z-index: 5;
+    background-color:rgba(255, 255, 255, 0.247);
+
+color: white;
+padding:8px;
+border-radius: 50%;
+cursor: pointer;
+
+
+}
+.contact .rows i:hover{
+    color: #18d26e ;
+}
+
+/* end contact */
